@@ -24,6 +24,7 @@ defined( 'TF_PATH' ) or define( 'TF_PATH', trailingslashit( dirname( __FILE__ ) 
 require_once( TF_PATH . 'class-admin-notification.php' );
 require_once( TF_PATH . 'class-admin-panel.php' );
 require_once( TF_PATH . 'class-admin-tab.php' );
+require_once( TF_PATH . 'class-custom-posttype.php' ); // Introduced
 require_once( TF_PATH . 'class-meta-box.php' );
 require_once( TF_PATH . 'class-option.php' );
 require_once( TF_PATH . 'class-option-checkbox.php' );

@@ -320,6 +320,10 @@ class TitanFramework {
 
 		return $obj;
 	}
+	
+	public function createCustomPostType( $settings ) {
+		$obj	=	new TitanFrameworkCustomPostType( $settings , $this );
+	}
 
 
 	/**
